@@ -1,0 +1,89 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+  background: #b8d3ec;
+  text-align: center;
+}
+
+main {
+  background: white;
+  width: 90%;
+  margin: 0 auto;
+  border: 10px;
+  padding: 20px 0;
+}
+
+h1 {
+  letter-spacing: 1px;
+}
+
+h2, p {
+  display: block;
+  padding: 15px 0;
+  letter-spacing: 2px;
+}
+
+img {
+  width: 50%;
+  height: 40%;
+}
+
+.comment {
+  margin: 10px auto;
+  border: 1px solid sienna;
+  max-width: 50%;
+  min-width: 150px;
+}
+
+#comments {
+  margin-bottom: 40px;
+}
+
+form {
+  width: 50%;
+  min-width: 150px;
+  margin: 10px auto 30px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 20px 0;
+}
+
+.formSection {
+  margin: 10px auto;
+}
+
+label {
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 80%;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  min-height: 30px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 100px;
+}
+
+button {
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 7px;
+}
+
+.contp {
+  width: 100%;
+  background: #b8d3ec;
+}
+
+button:hover {
+  opacity: .8;
+  color: rgb(216, 214, 214);
+  background: rgb(148, 43, 43);
+  cursor: pointer;
+}
