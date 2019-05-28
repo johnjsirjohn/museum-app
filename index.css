@@ -16,6 +16,10 @@ h1 {
   margin: 3rem 1rem 6rem;
 }
 
+img:hover {
+  opacity: .7;
+}
+
 .artObject {
   max-width: 80%;
   max-height: 400px;
