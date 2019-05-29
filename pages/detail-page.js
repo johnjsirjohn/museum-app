@@ -14,6 +14,15 @@ function doesNotPassAllValidations(name, msg) {
 	} else if (msg.length > 280) {
 		alert('Your comment is too long');
 		return true;
+	} else if (
+		msg.includes('crap') ||
+		msg.includes('idiot') ||
+		msg.includes('stupid') ||
+		msg.includes('asshole') ||
+		msg.includes('cretin')
+	) {
+		alert('Warning: this comment has been flagged as offensive');
+		return true;
 	} else {
 		return false;
 	}
