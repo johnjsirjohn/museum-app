@@ -35,8 +35,9 @@ function submitComment() {
 	const h3 = document.createElement('h3');
 	const p = document.createElement('p');
 	//adjust the elements I created
-	h3.innerHTML = `${name} said:`;
-	p.innerHTML = msg;
+	//Capitalize the first letter of the name and message
+	h3.innerHTML = `${name[0].toUpperCase()}${name.slice(1)} said:`;
+	p.innerHTML = `${msg[0].toUpperCase()}${msg.slice(1)}`;
 	comment.classList.add('comment');
 	comment.appendChild(h3);
 	comment.appendChild(p);
